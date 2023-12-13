@@ -1,0 +1,206 @@
+body {
+    background-color: black;
+font-family: monospace, sans-serif;
+cursor: crosshair;
+background-image: url("snail.png");
+background-size: contain;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+#roam{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,36,1) 21%, rgba(0,212,255,1) 44%, rgba(56,4,36,1) 64%, rgba(30,162,201,1) 84%);
+}
+
+her{
+display: flex;
+flex-direction: column;
+overflow: hidden;
+}
+h1{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color:goldenrod;
+text-shadow: 3px 0px 2px goldenrod;
+}
+@keyframes mymove{
+    from{
+        margin-left:100px;
+        width: 200px;
+    }
+    to{
+        margin:0px;
+        width: 100px;
+    }
+}
+h2{
+    font-weight: lighter;
+    color:aqua;
+    font-size: small;
+}
+h3{
+    font-size: small;
+    color: aqua;
+}
+p{
+    animation-duration:5s;
+    animation-name:slidein1;
+    animation-iteration-count: infinite;
+    animation: delay 5px;
+    color: yellow;
+}
+@keyframes slidein1{
+    from{
+        margin-left:100px;
+        
+    }
+    to{
+        margin-left:0px;
+        
+    }
+}
+header .profile-thumbnail {
+width: auto;
+height: auto;
+border-radius: 4px;
+animation-duration:6s;
+animation-name:identifier;
+animation-iteration-count: infinite;
+animation-delay:10px;
+}
+@keyframes slidein{
+    from{
+        margin-left:100px;
+        width:300%;
+    }
+    to{
+        margin-left:0px;
+        width:100px;
+    }
+}
+
+header .profile-name {
+display: inline-block;
+margin-left: 10px;
+
+
+}
+
+ul{
+    padding: 33px;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+}
+
+header h2, header h3{
+display: flex;
+margin: 0;
+}
+
+a{
+    color: aqua;
+    font-size: small 10px;
+}
+
+.linkh{
+        color:brown
+}
+
+.linkh:hover{
+    color: yellow;
+    text-decoration: none;
+
+}
+
+.EDUCATION{
+    color:pink;
+    text-shadow: 3px 2px 3px pink;
+    box-shadow: 3px 2px 3px hotpink;
+}
+
+.Skills,.Skills2,.Skills3{
+    color:yellow;
+    list-style-type: square;
+    box-shadow: 3px 2px yellow;
+    border-radius: 10px;
+    cursor: grabbing;
+    animation: smokeOne 3s 4s linear infinite;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,36,1) 21%, rgba(0,212,255,1) 44%, rgba(56,4,36,1) 64%, rgba(30,162,201,1) 84%);
+}
+
+@keyframes smokeOne {
+    0% {
+    bottom: 20px;
+    opacity: 0;
+    }
+    40% {
+    bottom: 50px;
+    opacity: .5;
+    }
+    80% {
+    bottom: 80px;
+    opacity: .3;
+    }
+    100% {
+    bottom: 80px;
+    opacity: 0;
+    }
+}
+
+a:hover{
+    background-color: green;
+}
+
+#inner p {
+margin-bottom: 50px;
+font-size: 20px;
+opacity: 60%;
+color: yellow;
+}
+
+#inner hr {
+margin: 56px ;
+border-style: solid;
+opacity:1;
+box-shadow: 10px 10px black;
+color: whitesmoke;
+}
+
+#indiv{
+font-family: Arial, Helvetica, sans-serif;
+border: 3px solid pink;
+margin: 30px 20px;
+padding: 5px 20px 15px 20px;
+}
+
+#nameeh{
+    color:brown;
+
+}
+
+.butN{
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+
+.btn {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.btn:hover {opacity: 1}
+
+#jesus{
+    size: 20px;
+    margin:auto;
+    border-radius: 40%;
+    background-color: yellow;
+}
